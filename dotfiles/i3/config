@@ -184,16 +184,17 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
-gaps inner 5
-gaps outer 10
+gaps inner 10
+# gaps outer 10
 
-default_border pixel 3
+default_border pixel 2
 
 exec gammastep -O 3500
 exec setxkbmap us
 exec_always feh --bg-scale /home/asacxyz/Downloads/89KhjAB.jpeg
 
-set $acolor #fc0303
+# set $acolor #fc0303
+set $acolor #E89EB8
 set $bgucolor #9e9e9e
 
 # class                   border  backgr. text    indic.   child_border
