@@ -185,6 +185,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 exec --no-startup-id gammastep -O 3500
-exec_always --no-startup-id xrandr --output eDP-1 --off --output HDMI-1 --mode 2560x1080 --pos 0x0 --rotate normal
+exec_always --no-startup-id xrandr --output eDP-1 --off --output HDMI-1 --mode 2560x1080 --pos 0x0 --rotate normal --rate 74.99
 
 bindsym Print exec gnome-screenshot -i
